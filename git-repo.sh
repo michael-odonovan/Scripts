@@ -1,11 +1,12 @@
 #!/bin/bash
 
-# Make sure you have an example .gitconfig file located here:
+# On a new computer - make sure you have an example .gitconfig file located here:
 # ~/.sample-gitconfig
 
 # How to use:
-# cd to where you want to create a project, ie the parent of where the project folder will be created.
-# `git-new.sh repo-name`
+# - create your project folder
+# - cd into the folder
+# `$ git-repo.sh repo-name`
 
 repo_name=$1
 
@@ -15,10 +16,8 @@ then
 	echo 'you forgot to include a name for the new repo'
 
 else
-	# create folder and .gitconfig
-	mkdir $repo_name
-	cd $repo_name
-	cp ~/sample-gitignore ./.gitignore
+	# create .gitconfig
+	cp ~/.sample-gitignore ./.gitignore
 
 	# create git repo
 	git init
