@@ -1,4 +1,5 @@
 #!/bin/bash
+# old script for dealing with resizing images for desktop and mobile.
 
 # Dependencies for this script:
 # - rename

@@ -1,4 +1,5 @@
 #!/bin/bash
+# creates a local git repo in the current folder and then pushes up to an existing remote github repo of the same name.
 
 # On a new computer - make sure you have an example .gitconfig file located here:
 # ~/.sample-gitconfig

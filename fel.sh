@@ -1,4 +1,5 @@
 #!/bin/bash
+# Create a boilerplate html and linked css file for testing or notes keeping/example.
 
 # Note!: gsed is just for mac to gnu-sed. Change to "sed" when on linux
 

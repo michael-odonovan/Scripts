@@ -1,4 +1,5 @@
 #!/bin/bash
+# collecting my dotfiles together into one git repo folder Dotfiles:
 
 cp ~/.gitconfig ~/Dotfiles/.gitconfig
 cp ~/.bashrc ~/Dotfiles/.bashrc

@@ -1,4 +1,5 @@
 #!/bin/bash
+# resizes i3 window based on it's position in the screen, so true left and right resizing.
 
 [ -z "$1" ] && echo "No direction provided" && exit 1
 

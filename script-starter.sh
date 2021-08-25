@@ -1,4 +1,5 @@
 #!/bin/bash
+# creates a bash or python script, gives correct permissions, and runs a 'hello' to test it's working.
 
 # Usage
 # $ script-starter.sh filename extension

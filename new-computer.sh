@@ -1,4 +1,5 @@
 #!/bin/bash
+# Setting up my git repos onto a new computer.
 
 mkdir ~/Documents
 
