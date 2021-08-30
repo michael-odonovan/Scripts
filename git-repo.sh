@@ -5,8 +5,14 @@
 # ~/.sample-gitconfig
 
 # How to use:
-# - create your project folder
-# - cd into the folder
+# 1)
+# - Create the repo on Github and set whether you want it public or private.
+
+# 2)
+# - Move into the parent folder of the project e.g. Js-projects/
+
+# 3)
+# make sure you get the github repo name right!!!:
 # `$ git-repo.sh repo-name`
 
 repo_name=$1
@@ -17,12 +23,13 @@ then
 	echo 'you forgot to include a name for the new repo'
 
 else
-	# create .gitconfig
-	cp ~/.sample-gitignore ./.gitignore
 
-	# create git repo
+	mkdir $repo_name
+	cd $repo_name
+	echo "# react-pomodoro-timer" >> README.md
+	cp ~/.sample-gitignore ./.gitignore
 	git init
-	git add .
+	git add README.md
 	git commit -m "first commit"
 	git branch -M main
 	git remote add origin git@github.com:michael-odonovan/$repo_name.git
