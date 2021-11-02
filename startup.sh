@@ -2,6 +2,8 @@
 
 # wmctrl -s 0 = Switches to workspace 0 [workspaces are numbered from 0]
 
+sudo apt update && sudo apt upgrade
+
 wmctrl -s 1
 evince ~/Javascript/recycle-mobility/stuff/mockup.pdf &
 sleep 2
