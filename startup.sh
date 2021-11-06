@@ -16,6 +16,6 @@ keepassxc &
 sleep 2
 
 wmctrl -s 0
-firefox &
+nohup firefox "$@" > /dev/null 2>&1 &
 sleep 2
 
