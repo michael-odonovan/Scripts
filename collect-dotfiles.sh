@@ -13,4 +13,5 @@ cp ~/.config/ranger/rc.conf ~/Dotfiles/rc.conf
 cp ~/.config/yabai/yabairc ~/Dotfiles/yabairc
 cp ~/.config/skhd/skhdrc ~/Dotfiles/skhdrc
 cp ~/.config/Code/User/settings.json ~/Dotfiles/settings.json
+cp ~/.config/Code/User/keybindings.json ~/Dotfiles/keybindings.json
 
