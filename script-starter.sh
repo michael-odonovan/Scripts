@@ -11,7 +11,7 @@ extension=$2
 # create script in bin folder
 touch ~/bin/"$filename"."$extension"
 
-# setup bash or python boilerplate and add an echo "hello..."
+# setup bash or python boilerplate and add an echo "hello..." to confirm it's working
 if [ $extension == 'sh' ]
 then
 	echo '#!/bin/bash' >> ~/bin/"$filename".sh
