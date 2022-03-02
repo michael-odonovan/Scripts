@@ -23,7 +23,7 @@ then
 fi
 
 # sort out permissions
-chmod 755 ~/bin/"$filename"."$extension"
+chmod +x ~/bin/"$filename"."$extension"
 # call the script to test it works
 ~/bin/"$filename"."$extension"
 # give me a chance to read the "hello"
