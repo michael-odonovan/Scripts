@@ -12,6 +12,6 @@ keepassxc &
 sleep 2
 
 wmctrl -s 0
-nohup firefox "$@" > /dev/null 2>&1 &
+nohup google-chrome "$@" > /dev/null 2>&1 &
 sleep 2
 
