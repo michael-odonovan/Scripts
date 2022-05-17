@@ -17,5 +17,6 @@ cp ~/Repos/DotFiles/.yabairc ~/.yabairc
 cp ~/Repos/DotFiles/.skhdrc ~/.skhdrc 
 
 # vscode
+mkdir ~/Library/Application\ Support/Code/User/
 cp ~/Repos/DotFiles/vs-code/settings.json ~/Library/Application\ Support/Code/User/settings.json 
 cp ~/Repos/DotFiles/vs-code/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json 
