@@ -3,8 +3,8 @@
 # wmctrl -s 0 = Switches to workspace 0 [workspaces are numbered from 0]
 
 wmctrl -s 3
-nautilus &
-nautilus &
+open . &
+open . &
 sleep 2
 
 wmctrl -s 4
