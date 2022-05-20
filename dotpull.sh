@@ -1,7 +1,11 @@
 #!/bin/bash
 # destributes my dotfiles onto a new machine from my DotFiles GitHub repo
 
+# pull down dotfile repos
 cd
+mkdir Repos and cd Repos
+git clone https://github.com/michael-odonovan/DotFiles.git
+
 # git
 cp ~/Repos/DotFiles/.gitmessage ~/.gitmessage 
 cp ~/Repos/DotFiles/.gitconfig ~/.gitconfig 
