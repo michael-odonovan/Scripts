@@ -21,15 +21,18 @@ brew install yarn
 brew tap homebrew/cask-fonts
 brew install --cask font-hack-nerd-font
 
+### ripgrep needed for nvim Telescope
+brew install ripgrep
+
+## yabai and skhd window management ===========================
+brew install koekeishiya/formulae/yabai
+brew install koekeishiya/formulae/skhd
+
 ## Other ======================
 ### get rid of annoying terminal message at opening:
 cd
 touch .hushlogin
 
-
-## yabai and skhd window management ===========================
-brew install koekeishiya/formulae/yabai
-brew install koekeishiya/formulae/skhd
 brew services start skhd
 brew services start yabai
 

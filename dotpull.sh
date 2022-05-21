@@ -1,9 +1,8 @@
 #!/bin/bash
 # destributes my dotfiles onto a new machine from my DotFiles GitHub repo
 
-# pull down dotfile repos
 cd
-mkdir Repos and cd Repos
+mkdir Repos && cd Repos
 git clone https://github.com/michael-odonovan/DotFiles.git
 
 # git
