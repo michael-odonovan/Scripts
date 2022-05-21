@@ -4,34 +4,28 @@
 ### Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-### git
 brew install git
 brew install gh
-
-### iterm
 brew install --cask iterm2
-
-### wmctrl (for startup.sh script)
-brew install wmctrl
-
-### yarn
 brew install yarn
-
-### hack nerd font
-brew tap homebrew/cask-fonts
+brew tap homebrew/cask-fonts ### for hack nerd font
 brew install --cask font-hack-nerd-font
-
-### ripgrep needed for nvim Telescope
 brew install ripgrep
+brew install tmux
+brew install trash-cli
+brew install neovim
+brew install --cask keepassxc
 
-## yabai and skhd window management ===========================
+
 brew install koekeishiya/formulae/yabai
 brew install koekeishiya/formulae/skhd
 
-## Other ======================
 ### get rid of annoying terminal message at opening:
 cd
 touch .hushlogin
+
+### oh-my-zsh plugin
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 brew services start skhd
 brew services start yabai
