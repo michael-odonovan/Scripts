@@ -15,6 +15,7 @@ brew install tmux
 brew install trash-cli
 brew install neovim
 brew install --cask keepassxc
+brew install spaceman
 
 
 brew install koekeishiya/formulae/yabai
