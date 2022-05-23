@@ -13,10 +13,13 @@ brew install --cask font-hack-nerd-font
 brew install ripgrep
 brew install tmux
 brew install trash-cli
-brew install neovim
 brew install --cask keepassxc
 brew install spaceman
 
+## neovim
+brew install neovim
+brew tree-sitter
+brew install luajit
 
 brew install koekeishiya/formulae/yabai
 brew install koekeishiya/formulae/skhd
