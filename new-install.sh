@@ -15,6 +15,7 @@ brew install tmux
 brew install trash-cli
 brew install --cask keepassxc
 brew install spaceman
+brew install node
 
 ## neovim
 brew install neovim
