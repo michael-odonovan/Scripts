@@ -16,6 +16,7 @@ brew install trash-cli
 brew install --cask keepassxc
 brew install spaceman
 brew install node
+brew install nvm ### node version manager
 
 ## neovim
 brew install neovim
