@@ -5,10 +5,13 @@
 cp ~/.gitmessage ~/Repos/DotFiles/.gitmessage
 cp ~/.gitconfig ~/Repos/DotFiles/.gitconfig
 
+# other
 cp ~/.zshrc ~/Repos/DotFiles/.zshrc
 cp ~/.bashrc ~/Repos/DotFiles/.bashrc
 cp ~/.bash_profile ~/Repos/DotFiles/.bash_profile
 cp ~/.tmux.conf ~/Repos/DotFiles/.tmux.conf
+cp ~/.config/gatsby/config.json ~/Repos/DotFiles/.config/gatsby/config.json
+
 
 # window manager
 cp ~/.yabairc ~/Repos/DotFiles/.yabairc
