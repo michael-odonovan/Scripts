@@ -1,5 +1,5 @@
 #!/bin/bash
-# usage example change myfiles.js to myfiles.ts:
+# usage example all files in a folder from .js to .ts
 # $ change-file-extensions.sh js ts
 
 for file in *.$1
