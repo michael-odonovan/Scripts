@@ -17,6 +17,7 @@ brew install --cask keepassxc
 brew install spaceman
 brew install node
 brew install nvm ### node version manager
+brew install --cask freecad
 
 ## neovim
 brew install neovim
@@ -36,3 +37,4 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 brew services start skhd
 brew services start yabai
 
+yarn global add jsonls
