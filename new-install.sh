@@ -18,6 +18,7 @@ brew install spaceman
 brew install node
 brew install nvm ### node version manager
 brew install --cask freecad
+brew install wget ## missing dep for some nvim stuff
 
 ## neovim
 brew install neovim
