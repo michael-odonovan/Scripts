@@ -1,13 +1,14 @@
 #!/bin/bash
 # destributes my dotfiles onto a new machine from my DotFiles GitHub repo
 
+# keeping .gitconfig out of this at moment so can share this script
+
 cd
 mkdir Repos && cd Repos
 git clone https://github.com/michael-odonovan/DotFiles.git
 
 # git
 cp ~/Repos/DotFiles/.gitmessage ~/.gitmessage 
-cp ~/Repos/DotFiles/.gitconfig ~/.gitconfig 
 
 # config files
 cp ~/Repos/DotFiles/.zshrc ~/.zshrc 
