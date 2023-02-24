@@ -19,6 +19,8 @@ brew install node
 brew install nvm ### node version manager
 brew install --cask freecad
 brew install wget ## missing dep for some nvim stuff
+brew install go
+brew install luarocks
 
 ## neovim
 brew install neovim
