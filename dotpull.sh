@@ -15,6 +15,7 @@ cp ~/Repos/DotFiles/.zshrc ~/.zshrc
 cp ~/Repos/DotFiles/.bashrc ~/.bashrc 
 cp ~/Repos/DotFiles/.bash_profile ~/.bash_profile 
 cp ~/Repos/DotFiles/.tmux.conf ~/.tmux.conf 
+cp ~/Repos/DotFiles/kitty.conf ~/.config/kitty/kitty.conf
 
 # window manager
 cp ~/Repos/DotFiles/.yabairc ~/.yabairc 
