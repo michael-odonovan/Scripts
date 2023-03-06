@@ -22,6 +22,8 @@ brew install wget ## missing dep for some nvim stuff
 brew install go
 brew install luarocks
 brew install jesseduffield/lazygit/lazygit
+brew install imagemagick
+brew install --cask alacritty
 
 ## neovim
 brew install neovim

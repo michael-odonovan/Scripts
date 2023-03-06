@@ -1,6 +1,6 @@
 #!/bin/bash
 ## Basic Usage
-# resize-image.sh -size 1000 ./file ./file
+# image-resize.sh -size 1000 ./file ./file
 
 # Developed by Fred Weinhaus 12/24/2009 .......... revised 8/1/2021
 #
