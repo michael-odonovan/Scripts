@@ -11,6 +11,7 @@ cp ~/.bashrc ~/Repos/DotFiles/.bashrc
 cp ~/.bash_profile ~/Repos/DotFiles/.bash_profile
 cp ~/.tmux.conf ~/Repos/DotFiles/.tmux.conf
 cp ~/.config/kitty/kitty.conf ~/Repos/DotFiles/kitty.conf
+cp ~/.config/alacritty/alacritty.yml ~/Repos/DotFiles/alacritty.yml
 cp ~/.config/gatsby/config.json ~/Repos/DotFiles/.config/gatsby/config.json
 
 
