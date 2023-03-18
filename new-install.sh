@@ -23,6 +23,7 @@ brew install go
 brew install luarocks
 brew install jesseduffield/lazygit/lazygit
 brew install imagemagick
+brew install lf
 
 ## neovim
 brew install neovim
