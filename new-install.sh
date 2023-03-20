@@ -23,7 +23,9 @@ brew install go
 brew install luarocks
 brew install jesseduffield/lazygit/lazygit
 brew install imagemagick
-brew install lf
+brew install fzf
+# To install useful key bindings and fuzzy completion:
+$(brew --prefix)/opt/fzf/install
 
 ## neovim
 brew install neovim
