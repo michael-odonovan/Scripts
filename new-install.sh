@@ -46,5 +46,8 @@ cd ~/.oh-my-zsh/custom/
 ### autocompletion
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 
+### visual tree of folder and files
+npm install -g tree-node-cli
+
 brew services start skhd
 brew services start yabai
