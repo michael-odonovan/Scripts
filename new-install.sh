@@ -42,9 +42,7 @@ touch .hushlogin
 ### oh-my-zsh plugin
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ### zsh plugins
-# z
 cd ~/.oh-my-zsh/custom/
-gh repo clone agkozak/zsh-z
 ### autocompletion
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 
