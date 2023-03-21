@@ -1,29 +1,29 @@
 #!/bin/bash
-# destributes my dotfiles onto a new machine from my DotFiles GitHub repo
+# destributes my dotfiles onto a new machine from my dotfiles GitHub repo
 
 # keeping .gitconfig out of this at moment so can share this script
 
 cd
-mkdir Repos && cd Repos
-git clone https://github.com/michael-odonovan/DotFiles.git
+mkdir repos && cd repos
+git clone https://github.com/michael-odonovan/dotfiles.git
 
 # git
-cp ~/Repos/DotFiles/.gitmessage ~/.gitmessage 
+cp ~/repos/dotfiles/.gitmessage ~/.gitmessage 
 
 # config files
-cp ~/Repos/DotFiles/.zshrc ~/.zshrc 
-cp ~/Repos/DotFiles/.bashrc ~/.bashrc 
-cp ~/Repos/DotFiles/.bash_profile ~/.bash_profile 
-cp ~/Repos/DotFiles/.tmux.conf ~/.tmux.conf 
-cp ~/Repos/DotFiles/kitty.conf ~/.config/kitty/kitty.conf
+cp ~/repos/dotfiles/.zshrc ~/.zshrc 
+cp ~/repos/dotfiles/.bashrc ~/.bashrc 
+cp ~/repos/dotfiles/.bash_profile ~/.bash_profile 
+cp ~/repos/dotfiles/.tmux.conf ~/.tmux.conf 
+cp ~/repos/dotfiles/kitty.conf ~/.config/kitty/kitty.conf
 
 # window manager
-cp ~/Repos/DotFiles/.yabairc ~/.yabairc 
-cp ~/Repos/DotFiles/.skhdrc ~/.skhdrc 
+cp ~/repos/dotfiles/.yabairc ~/.yabairc 
+cp ~/repos/dotfiles/.skhdrc ~/.skhdrc 
 
 # vscode
 mkdir ~/Library/Application\ Support/Code/User/
-cp ~/Repos/DotFiles/vs-code/settings.json ~/Library/Application\ Support/Code/User/settings.json 
-cp ~/Repos/DotFiles/vs-code/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json 
+cp ~/repos/dotfiles/vs-code/settings.json ~/Library/Application\ Support/Code/User/settings.json 
+cp ~/repos/dotfiles/vs-code/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json 
 
 source ~/.zshrc

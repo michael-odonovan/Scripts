@@ -2,28 +2,28 @@
 # bash script to back up my dot files
 
 # git
-cp ~/.gitmessage ~/Repos/DotFiles/.gitmessage
-cp ~/.gitconfig ~/Repos/DotFiles/.gitconfig
+cp ~/.gitmessage ~/repos/dotfiles/.gitmessage
+cp ~/.gitconfig ~/repos/dotfiles/.gitconfig
 
 # other
-cp ~/.zshrc ~/Repos/DotFiles/.zshrc
-cp ~/.bashrc ~/Repos/DotFiles/.bashrc
-cp ~/.bash_profile ~/Repos/DotFiles/.bash_profile
-cp ~/.tmux.conf ~/Repos/DotFiles/.tmux.conf
-cp ~/.config/kitty/kitty.conf ~/Repos/DotFiles/kitty.conf
-cp ~/.config/alacritty/alacritty.yml ~/Repos/DotFiles/alacritty.yml
-cp ~/.config/gatsby/config.json ~/Repos/DotFiles/.config/gatsby/config.json
+cp ~/.zshrc ~/repos/dotfiles/.zshrc
+cp ~/.bashrc ~/repos/dotfiles/.bashrc
+cp ~/.bash_profile ~/repos/dotfiles/.bash_profile
+cp ~/.tmux.conf ~/repos/dotfiles/.tmux.conf
+cp ~/.config/kitty/kitty.conf ~/repos/dotfiles/kitty.conf
+cp ~/.config/alacritty/alacritty.yml ~/repos/dotfiles/alacritty.yml
+cp ~/.config/gatsby/config.json ~/repos/dotfiles/.config/gatsby/config.json
 
 
 # window manager
-cp ~/.yabairc ~/Repos/DotFiles/.yabairc
-cp ~/.skhdrc ~/Repos/DotFiles/.skhdrc
+cp ~/.yabairc ~/repos/dotfiles/.yabairc
+cp ~/.skhdrc ~/repos/dotfiles/.skhdrc
 
 # vscode
-cp ~/Library/Application\ Support/Code/User/settings.json ~/Repos/DotFiles/vs-code/settings.json 
-cp ~/Library/Application\ Support/Code/User/keybindings.json ~/Repos/DotFiles/vs-code/keybindings.json 
+cp ~/Library/Application\ Support/Code/User/settings.json ~/repos/dotfiles/vs-code/settings.json 
+cp ~/Library/Application\ Support/Code/User/keybindings.json ~/repos/dotfiles/vs-code/keybindings.json 
 
-cd ~/Repos/DotFiles
+cd ~/repos/dotfiles
 git add -A
 git commit -m "update"
 git push

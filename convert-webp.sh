@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # Simple script to convert all jpg and png images in a folder to web format
 # dependencies: imagemagick, libwebp-dev
 # usage: 
