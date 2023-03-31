@@ -12,8 +12,6 @@ cp ~/repos/dotfiles/.gitmessage ~/.gitmessage
 
 # config files
 cp ~/repos/dotfiles/.bash_profile ~/.bash_profile 
-cp ~/repos/dotfiles/.tmux.conf ~/.tmux.conf 
-cp ~/repos/dotfiles/kitty.conf ~/.config/kitty/kitty.conf
 
 # window manager
 cp ~/repos/dotfiles/.yabairc ~/.yabairc 
