@@ -17,6 +17,9 @@ cp ~/repos/dotfiles/.bash_profile ~/.bash_profile
 cp ~/repos/dotfiles/.yabairc ~/.yabairc 
 cp ~/repos/dotfiles/.skhdrc ~/.skhdrc 
 
+# alacritty
+cp ~/repos/dotfiles/.skhdrc ~/.skhdrc ~/alacritty/alacritty.yml
+
 # vscode
 mkdir ~/Library/Application\ Support/Code/User/
 cp ~/repos/dotfiles/vs-code/settings.json ~/Library/Application\ Support/Code/User/settings.json 
