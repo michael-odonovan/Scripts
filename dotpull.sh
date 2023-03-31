@@ -11,8 +11,6 @@ git clone https://github.com/michael-odonovan/dotfiles.git
 cp ~/repos/dotfiles/.gitmessage ~/.gitmessage 
 
 # config files
-cp ~/repos/dotfiles/.zshrc ~/.zshrc 
-cp ~/repos/dotfiles/.bashrc ~/.bashrc 
 cp ~/repos/dotfiles/.bash_profile ~/.bash_profile 
 cp ~/repos/dotfiles/.tmux.conf ~/.tmux.conf 
 cp ~/repos/dotfiles/kitty.conf ~/.config/kitty/kitty.conf
@@ -26,4 +24,3 @@ mkdir ~/Library/Application\ Support/Code/User/
 cp ~/repos/dotfiles/vs-code/settings.json ~/Library/Application\ Support/Code/User/settings.json 
 cp ~/repos/dotfiles/vs-code/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json 
 
-source ~/.zshrc
