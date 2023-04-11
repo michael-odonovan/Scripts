@@ -50,3 +50,4 @@ session5="5_scratch"
 tmux new-session -d -s $session5 -c ~/
 tmux select-window -t $session5:1
 
+
