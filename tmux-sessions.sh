@@ -1,17 +1,12 @@
 #!/bin/bash
 
-TMUX_SESSION_1='neovim'
-tmux new-session -d -s $TMUX_SESSION_1
+tmux new-session -d -s 'nvim' -c ~/.config/nvim/
 
-TMUX_SESSION_2='component-library'
-tmux new-session -d -s $TMUX_SESSION_2
+tmux new-session -d -s 'component-library' ~/comic-relief/component-library/
 
-TMUX_SESSION_3='comic-relief'
-tmux new-session -d -s $TMUX_SESSION_3
+tmux new-session -d -s 'comic-relief' ~/comic-relief/comicrelief-contentful/
 
-TMUX_SESSION_4='donate'
-tmux new-session -d -s $TMUX_SESSION_4
+tmux new-session -d -s 'donate' ~/comic-relief/react-donation/
 
-TMUX_SESSION_5='scratch'
-tmux new-session -d -s $TMUX_SESSION_5
+tmux new-session -d -s 'scratch'
 
