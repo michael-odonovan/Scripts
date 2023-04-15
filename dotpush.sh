@@ -20,8 +20,8 @@ cp ~/.yabairc ~/repos/dotfiles/.yabairc
 cp ~/.skhdrc ~/repos/dotfiles/.skhdrc
 
 # vscode
-cp ~/Library/Application\ Support/Code/User/settings.json ~/repos/dotfiles/vs-code/settings.json 
-cp ~/Library/Application\ Support/Code/User/keybindings.json ~/repos/dotfiles/vs-code/keybindings.json 
+cp ~/Library/Application\ Support/Code/User/settings.json ~/repos/dotfiles/vs-code/settings.json
+cp ~/Library/Application\ Support/Code/User/keybindings.json ~/repos/dotfiles/vs-code/keybindings.json
 
 cd ~/repos/dotfiles
 git add -A
