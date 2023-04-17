@@ -15,6 +15,8 @@ tmux new-window -t $session1:2 -c ~/comic-relief/component-library/ -n 'nvim'
 tmux send-keys -t $session1:2 'v .' C-m
 tmux new-window -t $session1:3 -c ~/comic-relief/component-library/ -n 'testing'
 tmux send-keys -t $session1:3 'v .' C-m
+tmux new-window -t $session1:4 -c ~/comic-relief/component-library/ -n 'git'
+tmux send-keys -t $session1:4 'lg' C-m
 tmux select-window -t $session1:1
 
 # Session 2 ===============
@@ -26,6 +28,8 @@ tmux new-window -t $session2:2 -c ~/comic-relief/comicrelief-contentful/ -n 'nvi
 tmux send-keys -t $session2:2 'v .' C-m
 tmux new-window -t $session2:3 -c ~/comic-relief/comicrelief-contentful/ -n 'testing'
 tmux send-keys -t $session2:3 'v .' C-m
+tmux new-window -t $session2:4 -c ~/comic-relief/comicrelief-contentful/ -n 'git'
+tmux send-keys -t $session2:4 'lg' C-m
 tmux select-window -t $session2:1
 
 # Session 3 ===============
@@ -37,6 +41,8 @@ tmux new-window -t $session3:2 -c ~/comic-relief/react-donation/ -n 'nvim'
 tmux send-keys -t $session3:2 'v .' C-m
 tmux new-window -t $session3:3 -c ~/comic-relief/react-donation/ -n 'testing'
 tmux send-keys -t $session3:3 'v .' C-m
+tmux new-window -t $session3:4 -c ~/comic-relief/react-donation/ -n 'git'
+tmux send-keys -t $session3:4 'lg' C-m
 tmux select-window -t $session3:1
 
 # Session 4 ===============
