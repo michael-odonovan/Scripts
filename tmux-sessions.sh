@@ -11,7 +11,7 @@ session1="1_component-library"
 tmux new-session -d -s $session1 -c ~/comic-relief/component-library/
 tmux rename-window -t $session1:1 'Server'
 # tmux send-keys -t $session1:1 'yarn styleguide' C-m
-tmux new-window -t $session1:2 -c ~/comic-relief/component-library/ -n 'Nvim'
+tmux new-window -t $session1:2 -c ~/comic-relief/component-library/ -n 'Code'
 tmux send-keys -t $session1:2 'v .' C-m
 tmux new-window -t $session1:3 -c ~/comic-relief/component-library/ -n 'Testing'
 tmux send-keys -t $session1:3 'v .' C-m
@@ -24,7 +24,7 @@ session2="2_comic-relief"
 tmux new-session -d -s $session2 -c ~/comic-relief/comicrelief-contentful/
 tmux rename-window -t $session2:1 'Server'
 # tmux send-keys -t $session2:1 'yd' C-m
-tmux new-window -t $session2:2 -c ~/comic-relief/comicrelief-contentful/ -n 'Nvim'
+tmux new-window -t $session2:2 -c ~/comic-relief/comicrelief-contentful/ -n 'Code'
 tmux send-keys -t $session2:2 'v .' C-m
 tmux new-window -t $session2:3 -c ~/comic-relief/comicrelief-contentful/ -n 'Testing'
 tmux send-keys -t $session2:3 'v .' C-m
@@ -37,7 +37,7 @@ session3="3_donate"
 tmux new-session -d -s $session3 -c ~/comic-relief/react-donation/
 tmux rename-window -t $session3:1 'Server'
 # tmux send-keys -t $session3:1 'ys' C-m
-tmux new-window -t $session3:2 -c ~/comic-relief/react-donation/ -n 'Nvim'
+tmux new-window -t $session3:2 -c ~/comic-relief/react-donation/ -n 'Code'
 tmux send-keys -t $session3:2 'v .' C-m
 tmux new-window -t $session3:3 -c ~/comic-relief/react-donation/ -n 'Testing'
 tmux send-keys -t $session3:3 'v .' C-m
@@ -46,8 +46,8 @@ tmux send-keys -t $session3:4 'lg' C-m
 tmux select-window -t $session3:1
 
 # Session 4 ===============
-session4="4_Nvim"
-tmux new-session -d -s $session4 -c ~/.config/Nvim/
+session4="4_Code"
+tmux new-session -d -s $session4 -c ~/.config/Code/
 tmux send-keys -t $session4 'v .' C-m
 tmux select-window -t $session4:1
 
