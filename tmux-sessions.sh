@@ -17,7 +17,6 @@ tmux new-window -t $session1:2 -c ~/comic-relief/component-library/ -n 'Server'
 # tmux send-keys -t $session1:2 'yarn styleguide' C-m
 
 tmux new-window -t $session1:3 -c ~/comic-relief/component-library/ -n 'Testing'
-tmux send-keys -t $session1:3 'v .' C-m
 
 tmux new-window -t $session1:4 -c ~/comic-relief/component-library/ -n 'Lazygit'
 tmux send-keys -t $session1:4 'lg' C-m
@@ -35,7 +34,6 @@ tmux new-window -t $session2:2 -c ~/comic-relief/comicrelief-contentful/ -n 'Ser
 # tmux send-keys -t $session2:2 'yd' C-m
 
 tmux new-window -t $session2:3 -c ~/comic-relief/comicrelief-contentful/ -n 'Testing'
-tmux send-keys -t $session2:3 'v .' C-m
 
 tmux new-window -t $session2:4 -c ~/comic-relief/comicrelief-contentful/ -n 'Lazygit'
 tmux send-keys -t $session2:4 'lg' C-m
@@ -53,7 +51,6 @@ tmux new-window -t $session3:2 -c ~/comic-relief/react-donation/ -n 'Server'
 # tmux send-keys -t $session3:2 'ys' C-m
 
 tmux new-window -t $session3:3 -c ~/comic-relief/react-donation/ -n 'Testing'
-tmux send-keys -t $session3:3 'v .' C-m
 
 tmux new-window -t $session3:4 -c ~/comic-relief/react-donation/ -n 'Lazygit'
 tmux send-keys -t $session3:4 'lg' C-m
