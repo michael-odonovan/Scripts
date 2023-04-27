@@ -76,7 +76,7 @@ tmux new-window -t $session5:2 -c ~/comic-relief/react-donation/ -n 'Server'
 
 
 # Session 6 ===============
-session5="6_scratch"
+session6="6_scratch"
 tmux new-session -d -s $session6 -c ~/
 tmux select-window -t $session6:1
 
