@@ -66,8 +66,17 @@ tmux select-window -t $session4:1
 
 
 # Session 5 ===============
-session5="5_scratch"
-tmux new-session -d -s $session5 -c ~/
-tmux select-window -t $session5:1
+session5="5_neovim"
+tmux new-session -d -s $session5 -c ~/comic-relief/react-donation/
+tmux rename-window -t $session5:1 'Code'
+tmux send-keys -t $session5:1 'v .' C-m
 
+tmux new-window -t $session5:2 -c ~/comic-relief/react-donation/ -n 'Server'
+# tmux send-keys -t $session5:2 'ys' C-m
+
+
+# Session 6 ===============
+session5="6_scratch"
+tmux new-session -d -s $session6 -c ~/
+tmux select-window -t $session6:1
 
