@@ -66,7 +66,7 @@ tmux select-window -t $session4:1
 
 
 # Session 5 ===============
-session5="5_neovim"
+session5="5_my-learning-site"
 tmux new-session -d -s $session5 -c ~/comic-relief/react-donation/
 tmux rename-window -t $session5:1 'Code'
 tmux send-keys -t $session5:1 'v .' C-m
