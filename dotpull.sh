@@ -12,6 +12,7 @@ cp ~/repos/dotfiles/.gitmessage ~/.gitmessage
 
 # config files
 cp ~/repos/dotfiles/.bash_profile ~/.bash_profile
+cp ~/repos/dotfiles/.vimrc ~/.vimrc
 
 # window manager
 cp ~/repos/dotfiles/.yabairc ~/.yabairc

@@ -13,6 +13,7 @@ cp ~/.tmux.conf ~/repos/dotfiles/.tmux.conf
 cp ~/.config/kitty/kitty.conf ~/repos/dotfiles/kitty.conf
 cp ~/.config/alacritty/alacritty.yml ~/repos/dotfiles/alacritty.yml
 cp ~/.config/gatsby/config.json ~/repos/dotfiles/.config/gatsby/config.json
+cp ~/.vimrc ~/repos/dotfiles/.vimrc
 
 
 # window manager

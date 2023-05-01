@@ -67,11 +67,11 @@ tmux select-window -t $session4:1
 
 # Session 5 ===============
 session5="5_my-learning-site"
-tmux new-session -d -s $session5 -c ~/comic-relief/react-donation/
+tmux new-session -d -s $session5 -c ~/repos/my-learning-site/
 tmux rename-window -t $session5:1 'Code'
 tmux send-keys -t $session5:1 'v .' C-m
 
-tmux new-window -t $session5:2 -c ~/comic-relief/react-donation/ -n 'Server'
+tmux new-window -t $session5:2 -c ~/repos/my-learning-site -n 'Server'
 # tmux send-keys -t $session5:2 'ys' C-m
 
 
