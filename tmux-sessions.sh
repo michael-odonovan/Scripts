@@ -67,7 +67,17 @@ tmux new-window -t $session5:2 -c ~/repos/my-learning-site -n 'Server'
 
 
 # Session 6 ===============
-session6="6_scratch"
-tmux new-session -d -s $session6 -c ~/
-tmux select-window -t $session6:1
+session6="6_my-learning-site"
+tmux new-session -d -s $session6 -c ~/repos/my-learning-site/
+tmux rename-window -t $session6:1 'Code'
+tmux send-keys -t $session6:1 'v .' C-m
+
+tmux new-window -t $session6:2 -c ~/repos/my-learning-site -n 'Server'
+tmux send-keys -t $session6:2 'yd' C-m
+
+
+# Session 7 ===============
+session7="7_scratch"
+tmux new-session -d -s $session7 -c ~/
+tmux select-window -t $session7:1
 
