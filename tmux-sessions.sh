@@ -16,7 +16,9 @@ tmux send-keys -t $session1:1 'v .' C-m
 tmux new-window -t $session1:2 -c ~/comic-relief/component-library/ -n 'Server'
 # tmux send-keys -t $session1:2 'yarn styleguide' C-m
 
-tmux new-window -t $session1:3 -c ~/comic-relief/component-library/ -n 'Testing'
+tmux new-window -t $session1:3 -c ~/comic-relief/component-library/ -n 'Jest'
+
+tmux new-window -t $session1:4 -c ~/comic-relief/component-library/ -n 'Cypress'
 
 tmux select-window -t $session1:1
 
@@ -30,7 +32,9 @@ tmux send-keys -t $session2:1 'v .' C-m
 tmux new-window -t $session2:2 -c ~/comic-relief/comicrelief-contentful/ -n 'Server'
 # tmux send-keys -t $session2:2 'yd' C-m
 
-tmux new-window -t $session2:3 -c ~/comic-relief/comicrelief-contentful/ -n 'Testing'
+tmux new-window -t $session2:3 -c ~/comic-relief/comicrelief-contentful/ -n 'Jest'
+
+tmux new-window -t $session2:4 -c ~/comic-relief/comicrelief-contentful/ -n 'Cypress'
 
 tmux select-window -t $session2:1
 
@@ -44,7 +48,9 @@ tmux send-keys -t $session3:1 'v .' C-m
 tmux new-window -t $session3:2 -c ~/comic-relief/react-donation/ -n 'Server'
 # tmux send-keys -t $session3:2 'ys' C-m
 
-tmux new-window -t $session3:3 -c ~/comic-relief/react-donation/ -n 'Testing'
+tmux new-window -t $session3:3 -c ~/comic-relief/react-donation/ -n 'Jest'
+
+tmux new-window -t $session3:4 -c ~/comic-relief/react-donation/ -n 'Cypress'
 
 tmux select-window -t $session3:1
 
@@ -67,12 +73,12 @@ tmux new-window -t $session5:2 -c ~/repos/my-learning-site -n 'Server'
 
 
 # Session 6 ===============
-session6="6_my-learning-site"
-tmux new-session -d -s $session6 -c ~/repos/my-learning-site/
+session6="6_eliz"
+tmux new-session -d -s $session6 -c ~/elizhelp/cut-list-app/
 tmux rename-window -t $session6:1 'Code'
 tmux send-keys -t $session6:1 'v .' C-m
 
-tmux new-window -t $session6:2 -c ~/repos/my-learning-site -n 'Server'
+tmux new-window -t $session6:2 -c ~/elizhelp/cut-list-app/ -n 'Server'
 tmux send-keys -t $session6:2 'yd' C-m
 
 
