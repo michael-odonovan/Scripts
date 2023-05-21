@@ -20,6 +20,9 @@ tmux new-window -t $session1:3 -c ~/comic-relief/component-library/ -n 'Jest'
 
 tmux new-window -t $session1:4 -c ~/comic-relief/component-library/ -n 'Cypress'
 
+tmux new-window -t $session1:5 -c ~/repos/tickets/ -n 'Tickets'
+tmux send-keys -t $session1:5 'cd ~/repos/tickets/ && v .' C-m
+
 tmux select-window -t $session1:1
 
 
@@ -36,6 +39,9 @@ tmux new-window -t $session2:3 -c ~/comic-relief/comicrelief-contentful/ -n 'Jes
 
 tmux new-window -t $session2:4 -c ~/comic-relief/comicrelief-contentful/ -n 'Cypress'
 
+tmux new-window -t $session2:5 -c ~/repos/tickets/ -n 'Tickets'
+tmux send-keys -t $session2:5 'cd ~/repos/tickets/ && v .' C-m
+
 tmux select-window -t $session2:1
 
 
@@ -51,6 +57,9 @@ tmux new-window -t $session3:2 -c ~/comic-relief/react-donation/ -n 'Server'
 tmux new-window -t $session3:3 -c ~/comic-relief/react-donation/ -n 'Jest'
 
 tmux new-window -t $session3:4 -c ~/comic-relief/react-donation/ -n 'Cypress'
+
+tmux new-window -t $session3:5 -c ~/repos/tickets/ -n 'Tickets'
+tmux send-keys -t $session3:5 'cd ~/repos/tickets/ && v .' C-m
 
 tmux select-window -t $session3:1
 
