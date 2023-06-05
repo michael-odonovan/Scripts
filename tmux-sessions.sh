@@ -60,8 +60,10 @@ tmux new-session -d -s $session4 -c ~/.config/nvim/
 
 tmux send-keys -t $session4 'v .' C-m
 
-tmux select-window -t $session4:1
+tmux new-window -t $session4:2 -c ~/.config/nvim/snippets/snippets/javascript-ecosystem/react-ts.json -n 'Snippets'
+tmux send-keys -t $session4:2 'v .' C-m
 
+tmux select-window -t $session4:1
 
 # Session 5 ===============
 session5="5_my-learning-site"
