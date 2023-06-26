@@ -74,17 +74,33 @@ tmux select-window -t $session5:1
 
 # Session 6 ===============
 session6="6_eliz"
-tmux new-session -d -s $session6 -c ~/elizhelp/cut-list-app/
+tmux new-session -d -s $session6 -c ~/elizhelp/cut-shed-app/
 tmux rename-window -t $session6:1 'Server'
 
-tmux new-window -t $session6:2 -c ~/elizhelp/cut-list-app/ -n 'Code'
+tmux new-window -t $session6:2 -c ~/elizhelp/cut-shed-app/ -n 'Code'
 tmux send-keys -t $session6:2 'v .' C-m
+
+tmux new-window -t $session6:3 -c ~/elizhelp/cut-shed-app/ -n 'Scratch'
+tmux send-keys -t $session6:3 'v .' C-m
 
 tmux select-window -t $session6:1
 
-# Session 7 ===============
-session7="7_scratch"
-tmux new-session -d -s $session7 -c ~/
+# Session 3 ===============
+session7="7_donate"
+tmux new-session -d -s $session7 -c ~/comic-relief/contact-us-2023/
+tmux rename-window -t $session7:1 'Server'
+
+tmux new-window -t $session7:2 -c ~/comic-relief/contact-us-2023/ -n 'Code'
+tmux send-keys -t $session7:2 'v .' C-m
+
+tmux new-window -t $session7:3 -c ~/comic-relief/contact-us-old/ -n 'Old version'
 
 tmux select-window -t $session7:1
+
+
+# Session 8 ===============
+session8="8_scratch"
+tmux new-session -d -s $session8 -c ~/
+
+tmux select-window -t $session8:1
 
