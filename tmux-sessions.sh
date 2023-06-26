@@ -86,7 +86,7 @@ tmux send-keys -t $session6:3 'v .' C-m
 tmux select-window -t $session6:1
 
 # Session 3 ===============
-session7="7_donate"
+session7="7_contact_us_rebuild"
 tmux new-session -d -s $session7 -c ~/comic-relief/contact-us-2023/
 tmux rename-window -t $session7:1 'Server'
 
