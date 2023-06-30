@@ -73,7 +73,7 @@ tmux send-keys -t $session5:2 'v .' C-m
 tmux select-window -t $session5:1
 
 # Session 6 ===============
-session6="6_eliz"
+session6="6_cutshed"
 tmux new-session -d -s $session6 -c ~/elizhelp/cut-shed-app/
 tmux rename-window -t $session6:1 'Server'
 
