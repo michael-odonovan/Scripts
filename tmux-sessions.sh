@@ -17,9 +17,7 @@ tmux rename-window -t $session1:1 'Server'
 tmux new-window -t $session1:2 -c ~/comic-relief/component-library/ -n 'Code'
 tmux send-keys -t $session1:2 'v .' C-m
 
-tmux new-window -t $session1:3 -c ~/comic-relief/component-library/ -n 'Jest'
-
-# tmux new-window -t $session1:4 -c ~/comic-relief/component-library/ -n 'Cypress'
+tmux new-window -t $session1:3 -c ~/comic-relief/component-library/ -n 'Lazygit'
 
 tmux select-window -t $session1:1
 
@@ -32,9 +30,7 @@ tmux rename-window -t $session2:1 'Server'
 tmux new-window -t $session2:2 -c ~/comic-relief/comicrelief-contentful/ -n 'Code'
 tmux send-keys -t $session2:2 'v .' C-m
 
-tmux new-window -t $session2:3 -c ~/comic-relief/comicrelief-contentful/ -n 'Jest'
-
-# tmux new-window -t $session2:4 -c ~/comic-relief/comicrelief-contentful/ -n 'Cypress'
+tmux new-window -t $session2:3 -c ~/comic-relief/comicrelief-contentful/ -n 'Lazygit'
 
 tmux select-window -t $session2:1
 
@@ -47,9 +43,7 @@ tmux rename-window -t $session3:1 'Server'
 tmux new-window -t $session3:2 -c ~/comic-relief/react-donation/ -n 'Code'
 tmux send-keys -t $session3:2 'v .' C-m
 
-tmux new-window -t $session3:3 -c ~/comic-relief/react-donation/ -n 'Jest'
-
-# tmux new-window -t $session3:4 -c ~/comic-relief/react-donation/ -n 'Cypress'
+tmux new-window -t $session3:3 -c ~/comic-relief/react-donation/ -n 'Lazygit'
 
 tmux select-window -t $session3:1
 
@@ -80,7 +74,7 @@ tmux rename-window -t $session6:1 'Server'
 tmux new-window -t $session6:2 -c ~/elizhelp/cut-shed-app/ -n 'Code'
 tmux send-keys -t $session6:2 'v .' C-m
 
-tmux new-window -t $session6:3 -c ~/elizhelp/cut-shed-app/ -n 'Scratch'
+tmux new-window -t $session6:3 -c ~/elizhelp/cut-shed-app/ -n 'Lazygit'
 tmux send-keys -t $session6:3 'v .' C-m
 
 tmux select-window -t $session6:1
@@ -93,7 +87,9 @@ tmux rename-window -t $session7:1 'Server'
 tmux new-window -t $session7:2 -c ~/comic-relief/contact-us-2023/ -n 'Code'
 tmux send-keys -t $session7:2 'v .' C-m
 
-tmux new-window -t $session7:3 -c ~/comic-relief/contact-us-old/ -n 'Old version'
+tmux new-window -t $session7:3 -c ~/comic-relief/contact-us-2023/ -n 'Lazygit'
+
+tmux new-window -t $session7:4 -c ~/comic-relief/contact-us-old/ -n 'Old version'
 
 tmux select-window -t $session7:1
 
