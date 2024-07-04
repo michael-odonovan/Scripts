@@ -79,7 +79,7 @@ tmux send-keys -t $session6:3 'v .' C-m
 
 tmux select-window -t $session6:1
 
-# Session 3 ===============
+# Session 7 ===============
 session7="7_contact_us_rebuild"
 tmux new-session -d -s $session7 -c ~/comic-relief/contact-us-2023/
 tmux rename-window -t $session7:1 'Code'
@@ -100,3 +100,15 @@ tmux new-session -d -s $session8 -c ~/
 
 tmux select-window -t $session8:1
 
+
+
+session8="8_react_payments"
+tmux new-session -d -s $session8 -c ~/comic-relief/react-payments/
+tmux rename-window -t $session8:1 'Code'
+tmux send-keys -t $session8:1 'v .' C-m
+
+tmux new-window -t $session8:2 -c ~/comic-relief/react-payments/ -n 'Lazygit'
+
+tmux new-window -t $session8:3 -c ~/comic-relief/react-payments/ -n 'Server'
+
+tmux select-window -t $session8:1
