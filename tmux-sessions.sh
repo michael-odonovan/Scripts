@@ -4,7 +4,7 @@
 session0="0_planning"
 tmux new-session -d -s $session0 -c ~/repos/notes/planning/
 
-tmux rename-window -t $session0:1 'todo'
+tmux rename-window -t $session0:1 'Todo'
 
 tmux send-keys -t $session0:1 'cd ~/repos/notes/ && v ./planning/1.today-todo.md' C-m
 
