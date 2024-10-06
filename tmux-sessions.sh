@@ -8,6 +8,9 @@ tmux rename-window -t $session0:1 'todo'
 
 tmux send-keys -t $session0:1 'cd ~/repos/notes/ && v ./planning/1.today-todo.md' C-m
 
+tmux new-window -t $session0:2 -c ~/repos/notes/ -n 'Notes'
+
+tmux new-window -t $session0:3 -c ~/repos/storage/ -n 'Storage'
 
 # Session 1 ===============
 session1="1_component-library"
@@ -94,14 +97,6 @@ tmux new-window -t $session7:4 -c ~/comic-relief/contact-us-old/ -n 'Old version
 tmux select-window -t $session7:1
 
 
-# Session 8 ===============
-session8="8_scratch"
-tmux new-session -d -s $session8 -c ~/
-
-tmux select-window -t $session8:1
-
-
-
 session8="8_react_payments"
 tmux new-session -d -s $session8 -c ~/comic-relief/react-payments/
 tmux rename-window -t $session8:1 'Code'
@@ -112,3 +107,12 @@ tmux new-window -t $session8:2 -c ~/comic-relief/react-payments/ -n 'Lazygit'
 tmux new-window -t $session8:3 -c ~/comic-relief/react-payments/ -n 'Server'
 
 tmux select-window -t $session8:1
+
+
+# Session 9 ===============
+session9="9_scratch"
+tmux new-session -d -s $session9 -c ~/
+
+tmux select-window -t $session9:1
+
+
