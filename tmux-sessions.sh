@@ -8,9 +8,10 @@ tmux rename-window -t $session0:1 'Todo'
 
 tmux send-keys -t $session0:1 'cd ~/repos/notes/ && v ./planning/1.today-todo.md' C-m
 
-tmux new-window -t $session0:2 -c ~/repos/notes/diy/ -n 'Diy'
+tmux new-window -t $session0:2 -c ~/repos/storage/ -n 'Storage'
 
-tmux new-window -t $session0:3 -c ~/repos/storage/ -n 'Storage'
+tmux new-window -t $session0:3 -c ~/repos/notes/ -n 'Notes'
+
 
 # Session 1 ===============
 session1="1_component-library"
