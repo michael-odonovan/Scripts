@@ -12,6 +12,7 @@ tmux new-window -t $session0:2 -c ~/repos/storage/ -n 'Storage'
 
 tmux new-window -t $session0:3 -c ~/repos/notes/ -n 'Notes'
 
+tmux new-window -t $session0:4 -c ~/Desktop/diy-notes-photos/ -n 'DIY'
 
 # Session 1 ===============
 session1="1_component-library"
